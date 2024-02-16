@@ -1,0 +1,12 @@
+main {
+  display: flex;
+  gap: 82px;
+  flex-direction: column-reverse;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 110px;
+
+  img {
+      justify-content: flex-start;
+  }
+}

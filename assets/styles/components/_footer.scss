@@ -1,0 +1,12 @@
+@import '../abstract/variables';
+
+footer {
+  align-items: center;
+  background-color: $secondary-color;
+  color: #000000;
+  display: flex;
+  font-size: 24px;
+  font-weight: 400;
+  height: 80px;
+  justify-content: center;
+}

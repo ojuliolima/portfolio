@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #000000;
+  color: #F6F6F6;
+  font-family: "Montserrat", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  margin: 30px 0px;
+}
+
+.menu ul {
+  display: flex;
+  gap: 80px;
+}
+.menu ul a {
+  color: #22D4FD;
+  font-weight: 600;
+  font-size: 24px;
+}
+
+main {
+  display: flex;
+  gap: 82px;
+  flex-direction: column-reverse;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 110px;
+}
+main img {
+  justify-content: flex-start;
+}
+
+.destaque {
+  color: #22D4FD;
+}
+
+.my-infos {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  max-width: 593px;
+  padding: 32px;
+}
+.my-infos h1 {
+  font-family: "Krona One", sans-serif;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 56px;
+}
+.my-infos p {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 36px;
+}
+
+.social-medias h2 {
+  font-family: "Krona One", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 32px;
+}
+.social-medias .social-medias__links {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  padding: 0px 32px;
+}
+.social-medias .social-medias__links .social-medias__links__link {
+  align-items: center;
+  border: solid 2px #22D4FD;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: row;
+  font-size: 24px;
+  gap: 16px;
+  justify-content: center;
+  max-width: 378px;
+  padding: 16px;
+  width: 100%;
+  color: #F6F6F6;
+}
+.social-medias .social-medias__links .social-medias__links__link:hover {
+  background-color: #272727;
+}
+
+footer {
+  align-items: center;
+  background-color: #22D4FD;
+  color: #000000;
+  display: flex;
+  font-size: 24px;
+  font-weight: 400;
+  height: 80px;
+  justify-content: center;
+}
+
+@media (min-width: 1080px) {
+  main {
+    max-width: 1210px;
+    flex-direction: row;
+    margin: 0 auto 110px auto;
+  }
+  img {
+    align-self: flex-start;
+  }
+  .menu {
+    margin: 65px auto 141px auto;
+    max-width: 1210px;
+    justify-content: flex-start;
+  }
+  .my-infos {
+    padding: 0px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

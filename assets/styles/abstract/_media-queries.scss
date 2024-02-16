@@ -1,0 +1,22 @@
+@media (min-width: 1080px) {
+  main {
+    max-width: 1210px;
+    flex-direction: row;
+    margin: 0 auto 110px auto;
+
+  }
+
+  img {
+    align-self: flex-start;
+  }
+
+  .menu {
+    margin: 65px auto 141px auto;
+    max-width: 1210px;
+    justify-content: flex-start;
+  }
+
+  .my-infos {
+    padding: 0px;  
+  }
+}
